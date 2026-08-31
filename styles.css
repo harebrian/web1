@@ -1,5 +1,21 @@
 body {
-
+        :root {
+                --pinkcondition: #e297e2;
+                --mimipink: #ffd8eb;
+                --moodlighting: #ffe5d2;
+                --pinkpalazzo: #dfa08e;
+                --goldilocks: #fff299;
+                --icylife: #58fbe1;
+                --lemongate: #8dffbc;
+                --twilightmauve: #967c81;
+                --truelavender: #7a8bca;
+                --bluemoonbay: #5d8694;
+                --carol: #2f8ea8;
+                --opalescent: #3c90c7;
+                --plantaingreen: #316651;
+                --duckhunt: #095b00;
+                --dropgreen: #65b85c;
+        }
         .BGpinkcondition {background-color: #e297e2;}
         .BGmimipink {background-color: #ffd8eb;}
         .BGmoodlighting {background-color: #ffe5d2;}
@@ -13,7 +29,7 @@ body {
         .BGcarol {background-color: #2f8ea8;}
         .BGopalescent {background-color: #3c90c7;}
         .BGplantaingreen {background-color: #316651;}
-        .BGduckhunt {background-color: #095b00;}
+        .BGduckhunt {background-color: --duckhunt;}
         .BGdropgreen {background-color: #65b85c;}
         .pinkcondition {color: #e297e2;}
         .mimipink {color: #ffd8eb;}
