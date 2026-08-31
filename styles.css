@@ -1,89 +1,92 @@
 body {
-        :root {
-                --pinkcondition: #e297e2;
-                --mimipink: #ffd8eb;
-                --moodlighting: #ffe5d2;
-                --pinkpalazzo: #dfa08e;
-                --goldilocks: #fff299;
-                --icylife: #58fbe1;
-                --lemongate: #8dffbc;
-                --twilightmauve: #967c81;
-                --truelavender: #7a8bca;
-                --bluemoonbay: #5d8694;
-                --carol: #2f8ea8;
-                --opalescent: #3c90c7;
-                --plantaingreen: #316651;
-                --duckhunt: #095b00;
-                --dropgreen: #65b85c;
-        }
-        .BGpinkcondition {background-color: #e297e2;}
-        .BGmimipink {background-color: #ffd8eb;}
-        .BGmoodlighting {background-color: #ffe5d2;}
-        .BGpinkpalazzo {background-color: #dfa08e;}
-        .BGgoldilocks {background-color: #fff299;}
-        .BGicylife {background-color: #58fbe1;}
-        .BGlemongate {background-color: #8dffbc;}
-        .BGtwilightmauve {background-color: #967c81;}
-        .BGtruelavender {background-color: #7a8bca;}
-        .BGbluemoonbay {background-color: #5d8694;}
-        .BGcarol {background-color: #2f8ea8;}
-        .BGopalescent {background-color: #3c90c7;}
-        .BGplantaingreen {background-color: #316651;}
-        .BGduckhunt {background-color: --duckhunt;}
-        .BGdropgreen {background-color: #65b85c;}
-        .pinkcondition {color: #e297e2;}
-        .mimipink {color: #ffd8eb;}
-        .moodlighting {color: #ffe5d2;}
-        .pinkpalazzo {color: #dfa08e;}
-        .goldilocks {color: #fff299;}
-        .icylife {color: #58fbe1;}
-        .lemongate {color: #8dffbc;}
-        .twilightmauve {color: #967c81;}
-        .truelavender {color: #7a8bca;}
-        .bluemoonbay {color: #5d8694;}
-        .carol {color: #2f8ea8;}
-        .opalescent {color: #3c90c7;}
-        .plantaingreen {color: #316651;}
-        .duckhunt {color: #095b00;}
-        .dropgreen {color: #65b85c;}
-        .L001 {background-color: #095b00; color: #e297e2;}
-        .L002 {background-color: #3c90c7; color: #58fbe1;}
-        .L003 {background-color: #967c81; color: #fff299;}
-        .L004 {background-color: #dfa08e; color: #967c81;}
-        .L005 {background-color: #7a8bca; color: #8dffbc;}
-        .L006 {background-color: #2f8ea8; color: #dfa08e;}
-        .L007 {background-color: #316651; color: #ffe5d2;}
-        .L008 {background-color: #fff299; color: #316651;}
-        .L009 {background-color: #dfa08e; color: #2f8ea8;}
-        .L010 {background-color: #2f8ea8; color: #e297e2;}
-        .L011 {background-color: #5d8694; color: #dfa08e;}
-        .L012 {background-color: #5d8694; color: #ffd8eb;}
-        .L013 {background-color: #dfa08e; color: #095b00;}
-        .L014 {background-color: #58fbe1; color: #967c81;}
-        .L015 {background-color: #ffe5d2; color: #5d8694;}
-        .L016 {background-color: #967c81; color: #8dffbc;}
-        .L017 {background-color: #dfa08e; color: #ffe5d2;}
-        .L018 {background-color: #095b00; color: #3c90c7;}
-        .L019 {background-color: #dfa08e; color: #fff299;}
-        .L020 {background-color: #fff299; color: #2f8ea8;}
-        .L021 {background-color: #e297e2; color: #5d8694;}
-        .L022 {background-color: #dfa08e; color: #ffd8eb;}
-        .L023 {background-color: #e297e2; color: #2f8ea8;}
-        .L024 {background-color: #8dffbc; color: #316651;}
-        .L025 {background-color: #095b00; color: #dfa08e;}
-        .L026 {background-color: #7a8bca; color: #ffd8eb;}
-        .L027 {background-color: #dfa08e; color: #5d8694;}
-        .L028 {background-color: #5d8694; color: #fff299;}
-        .L029 {background-color: #58fbe1; color: #095b00;}
-        .L030 {background-color: #967c81; color: --duckhunt;}
-        .L031 {background-color: #7a8bca; color: #fff299;}
-        .L032 {background-color: #fff299; color: #7a8bca;}
-        .L033 {background-color: #967c81; color: #ffe5d2;}
-        .L034 {background-color: #e297e2; color: #095b00;}
-        .L035 {background-color: #095b00; color: #58fbe1;} 
-        div.rcbox {border-radius: 15px; padding: 12px; max-width: 960px;}
-        div.box1 {border-radius: 7px; padding: 12px; spacing: 12px;}
-        p {max-width: 500px; text-align: left;}
+:root {
+--pinkcondition: #e297e2;
+--mimipink: #ffd8eb;
+--moodlighting: #ffe5d2;
+--pinkpalazzo: #dfa08e;
+--goldilocks: #fff299;
+--icylife: #58fbe1;
+--lemongate: #8dffbc;
+--twilightmauve: #967c81;
+--truelavender: #7a8bca;
+--bluemoonbay: #5d8694;
+--carol: #2f8ea8;
+--opalescent: #3c90c7;
+--plantaingreen: #316651;
+--duckhunt: #095b00;
+--dropgreen: #65b85c;
+}
 
+.BGpinkcondition {background-color: --pinkcondition;}
+.BGmimipink {background-color: --mimipink;}
+.BGmoodlighting {background-color: --moodlighting;}
+.BGpinkpalazzo {background-color: --pinkpalazzo;}
+.BGgoldilocks {background-color: --goldilocks;}
+.BGicylife {background-color: --icylife;}
+.BGlemongate {background-color: --lemongate;}
+.BGtwilightmauve {background-color: --twilightmauve;}
+.BGtruelavender {background-color: --truelavender;}
+.BGbluemoonbay {background-color: --bluemoonbay;}
+.BGcarol {background-color: --carol;}
+.BGopalescent {background-color: --opalescent;}
+.BGplantaingreen {background-color: --plantaingreen;}
+.BGduckhunt {background-color: --duckhunt;}
+.BGdropgreen {background-color: --dropgreen;}
+
+.pinkcondition {color: --pinkcondition;}
+.mimipink {color: --mimipink;}
+.moodlighting {color: --moodlighting;}
+.pinkpalazzo {color: --pinkpalazzo;}
+.goldilocks {color: --goldilocks;}
+.icylife {color: --icylife;}
+.lemongate {color: --lemongate;}
+.twilightmauve {color: --twilightmauve;}
+.truelavender {color: --truelavender;}
+.bluemoonbay {color: --bluemoonbay;}
+.carol {color: --carol;}
+.opalescent {color: --opalescent;}
+.plantaingreen {color: --plantaingreen;}
+.duckhunt {color: --duckhunt;}
+.dropgreen {color: --dropgreen;}
+
+.L001 {background-color: --duckhunt; color: --pinkcondition;}
+.L002 {background-color: --opalescent; color: --icylife;}
+.L003 {background-color: --twilightmauve; color: --goldilocks;}
+.L004 {background-color: --pinkpalazzo; color: --twilightmauve;}
+.L005 {background-color: --truelavender; color: --lemongate;}
+.L006 {background-color: --carol; color: --pinkpalazzo;}
+.L007 {background-color: --plantaingreen; color: --moodlighting;}
+.L008 {background-color: --goldilocks; color: --plantaingreen;}
+.L009 {background-color: --pinkpalazzo; color: --carol;}
+.L010 {background-color: --carol; color: --pinkcondition;}
+.L011 {background-color: --bluemoonbay; color: --pinkpalazzo;}
+.L012 {background-color: --bluemoonbay; color: --mimipink;}
+.L013 {background-color: --pinkpalazzo; color: --duckhunt;}
+.L014 {background-color: --icylife; color: --twilightmauve;}
+.L015 {background-color: --moodlighting; color: --bluemoonbay;}
+.L016 {background-color: --twilightmauve; color: --lemongate;}
+.L017 {background-color: --pinkpalazzo; color: --moodlighting;}
+.L018 {background-color: --duckhunt; color: --opalescent;}
+.L019 {background-color: --pinkpalazzo; color: --goldilocks;}
+.L020 {background-color: --goldilocks; color: --carol;}
+.L021 {background-color: --pinkcondition; color: --bluemoonbay;}
+.L022 {background-color: --pinkpalazzo; color: --mimipink;}
+.L023 {background-color: --pinkcondition; color: --carol;}
+.L024 {background-color: --lemongate; color: --plantaingreen;}
+.L025 {background-color: --duckhunt; color: --pinkpalazzo;}
+.L026 {background-color: --truelavender; color: --mimipink;}
+.L027 {background-color: --pinkpalazzo; color: --bluemoonbay;}
+.L028 {background-color: --bluemoonbay; color: --goldilocks;}
+.L029 {background-color: --icylife; color: --duckhunt;}
+.L030 {background-color: --twilightmauve; color: --duckhunt;}
+.L031 {background-color: --truelavender; color: --goldilocks;}
+.L032 {background-color: --goldilocks; color: --truelavender;}
+.L033 {background-color: --twilightmauve; color: --moodlighting;}
+.L034 {background-color: --pinkcondition; color: --duckhunt;}
+.L035 {background-color: --duckhunt; color: --icylife;}
+
+div.rcbox {border-radius: 15px; padding: 12px; max-width: 960px;}
+div.box1 {border-radius: 7px; padding: 12px; spacing: 12px;}
+p {max-width: 500px; text-align: left;}
 
 }
