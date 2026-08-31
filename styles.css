@@ -17,73 +17,73 @@ body {
 --dropgreen: #65b85c;
 }
 
-.BGpinkcondition {background-color: --pinkcondition;}
-.BGmimipink {background-color: --mimipink;}
-.BGmoodlighting {background-color: --moodlighting;}
-.BGpinkpalazzo {background-color: --pinkpalazzo;}
-.BGgoldilocks {background-color: --goldilocks;}
-.BGicylife {background-color: --icylife;}
-.BGlemongate {background-color: --lemongate;}
-.BGtwilightmauve {background-color: --twilightmauve;}
-.BGtruelavender {background-color: --truelavender;}
-.BGbluemoonbay {background-color: --bluemoonbay;}
-.BGcarol {background-color: --carol;}
-.BGopalescent {background-color: --opalescent;}
-.BGplantaingreen {background-color: --plantaingreen;}
-.BGduckhunt {background-color: --duckhunt;}
-.BGdropgreen {background-color: --dropgreen;}
+.pinkcondition {color: var(--pinkcondition);}
+.mimipink {color: var(--mimipink);}
+.moodlighting {color: var(--moodlighting);}
+.pinkpalazzo {color: var(--pinkpalazzo);}
+.goldilocks {color: var(--goldilocks);}
+.icylife {color: var(--icylife);}
+.lemongate {color: var(--lemongate);}
+.twilightmauve {color: var(--twilightmauve);}
+.truelavender {color: var(--truelavender);}
+.bluemoonbay {color: var(--bluemoonbay);}
+.carol {color: var(--carol);}
+.opalescent {color: var(--opalescent);}
+.plantaingreen {color: var(--plantaingreen);}
+.duckhunt {color: var(--duckhunt);}
+.dropgreen {color: var(--dropgreen);}
 
-.pinkcondition {color: --pinkcondition;}
-.mimipink {color: --mimipink;}
-.moodlighting {color: --moodlighting;}
-.pinkpalazzo {color: --pinkpalazzo;}
-.goldilocks {color: --goldilocks;}
-.icylife {color: --icylife;}
-.lemongate {color: --lemongate;}
-.twilightmauve {color: --twilightmauve;}
-.truelavender {color: --truelavender;}
-.bluemoonbay {color: --bluemoonbay;}
-.carol {color: --carol;}
-.opalescent {color: --opalescent;}
-.plantaingreen {color: --plantaingreen;}
-.duckhunt {color: --duckhunt;}
-.dropgreen {color: --dropgreen;}
+.BGpinkcondition {background-color: var(--pinkcondition);}
+.BGmimipink {background-color: var(--mimipink);}
+.BGmoodlighting {background-color: var(--moodlighting);}
+.BGpinkpalazzo {background-color: var(--pinkpalazzo);}
+.BGgoldilocks {background-color: var(--goldilocks);}
+.BGicylife {background-color: var(--icylife);}
+.BGlemongate {background-color: var(--lemongate);}
+.BGtwilightmauve {background-color: var(--twilightmauve);}
+.BGtruelavender {background-color: var(--truelavender);}
+.BGbluemoonbay {background-color: var(--bluemoonbay);}
+.BGcarol {background-color: var(--carol);}
+.BGopalescent {background-color: var(--opalescent);}
+.BGplantaingreen {background-color: var(--plantaingreen);}
+.BGduckhunt {background-color: var(--duckhunt);}
+.BGdropgreen {background-color: var(--dropgreen);
 
-.L001 {background-color: --duckhunt; color: --pinkcondition;}
-.L002 {background-color: --opalescent; color: --icylife;}
-.L003 {background-color: --twilightmauve; color: --goldilocks;}
-.L004 {background-color: --pinkpalazzo; color: --twilightmauve;}
-.L005 {background-color: --truelavender; color: --lemongate;}
-.L006 {background-color: --carol; color: --pinkpalazzo;}
-.L007 {background-color: --plantaingreen; color: --moodlighting;}
-.L008 {background-color: --goldilocks; color: --plantaingreen;}
-.L009 {background-color: --pinkpalazzo; color: --carol;}
-.L010 {background-color: --carol; color: --pinkcondition;}
-.L011 {background-color: --bluemoonbay; color: --pinkpalazzo;}
-.L012 {background-color: --bluemoonbay; color: --mimipink;}
-.L013 {background-color: --pinkpalazzo; color: --duckhunt;}
-.L014 {background-color: --icylife; color: --twilightmauve;}
-.L015 {background-color: --moodlighting; color: --bluemoonbay;}
-.L016 {background-color: --twilightmauve; color: --lemongate;}
-.L017 {background-color: --pinkpalazzo; color: --moodlighting;}
-.L018 {background-color: --duckhunt; color: --opalescent;}
-.L019 {background-color: --pinkpalazzo; color: --goldilocks;}
-.L020 {background-color: --goldilocks; color: --carol;}
-.L021 {background-color: --pinkcondition; color: --bluemoonbay;}
-.L022 {background-color: --pinkpalazzo; color: --mimipink;}
-.L023 {background-color: --pinkcondition; color: --carol;}
-.L024 {background-color: --lemongate; color: --plantaingreen;}
-.L025 {background-color: --duckhunt; color: --pinkpalazzo;}
-.L026 {background-color: --truelavender; color: --mimipink;}
-.L027 {background-color: --pinkpalazzo; color: --bluemoonbay;}
-.L028 {background-color: --bluemoonbay; color: --goldilocks;}
-.L029 {background-color: --icylife; color: --duckhunt;}
-.L030 {background-color: --twilightmauve; color: --duckhunt;}
-.L031 {background-color: --truelavender; color: --goldilocks;}
-.L032 {background-color: --goldilocks; color: --truelavender;}
-.L033 {background-color: --twilightmauve; color: --moodlighting;}
-.L034 {background-color: --pinkcondition; color: --duckhunt;}
-.L035 {background-color: --duckhunt; color: --icylife;}
+.L001 {background-color: var(--duckhunt); color: var(--pinkcondition);}
+.L002 {background-color: var(--opalescent); color: var(--icylife);}
+.L003 {background-color: var(--twilightmauve); color: var(--goldilocks);}
+.L004 {background-color: var(--pinkpalazzo); color: var(--twilightmauve);}
+.L005 {background-color: var(--truelavender); color: var(--lemongate);}
+.L006 {background-color: var(--carol); color: var(--pinkpalazzo);}
+.L007 {background-color: var(--plantaingreen); color: var(--moodlighting);}
+.L008 {background-color: var(--goldilocks); color: var(--plantaingreen);}
+.L009 {background-color: var(--pinkpalazzo); color: var(--carol);}
+.L010 {background-color: var(--carol); color: var(--pinkcondition);}
+.L011 {background-color: var(--bluemoonbay); color: var(--pinkpalazzo);}
+.L012 {background-color: var(--bluemoonbay); color: var(--mimipink);}
+.L013 {background-color: var(--pinkpalazzo); color: var(--duckhunt);}
+.L014 {background-color: var(--icylife); color: var(--twilightmauve);}
+.L015 {background-color: var(--moodlighting); color: var(--bluemoonbay);}
+.L016 {background-color: var(--twilightmauve); color: var(--lemongate);}
+.L017 {background-color: var(--pinkpalazzo); color: var(--moodlighting);}
+.L018 {background-color: var(--duckhunt); color: var(--opalescent);}
+.L019 {background-color: var(--pinkpalazzo); color: var(--goldilocks);}
+.L020 {background-color: var(--goldilocks); color: var(--carol);}
+.L021 {background-color: var(--pinkcondition); color: var(--bluemoonbay);}
+.L022 {background-color: var(--pinkpalazzo); color: var(--mimipink);}
+.L023 {background-color: var(--pinkcondition); color: var(--carol);}
+.L024 {background-color: var(--lemongate); color: var(--plantaingreen);}
+.L025 {background-color: var(--duckhunt); color: var(--pinkpalazzo);}
+.L026 {background-color: var(--truelavender); color: var(--mimipink);}
+.L027 {background-color: var(--pinkpalazzo); color: var(--bluemoonbay);}
+.L028 {background-color: var(--bluemoonbay); color: var(--goldilocks);}
+.L029 {background-color: var(--icylife); color: var(--duckhunt);}
+.L030 {background-color: var(--twilightmauve); color: var(--duckhunt);}
+.L031 {background-color: var(--truelavender); color: var(--goldilocks);}
+.L032 {background-color: var(--goldilocks); color: var(--truelavender);}
+.L033 {background-color: var(--twilightmauve); color: var(--moodlighting);}
+.L034 {background-color: var(--pinkcondition); color: var(--duckhunt);}
+.L035 {background-color: var(--duckhunt); color: var(--icylife);}
 
 div.rcbox {border-radius: 15px; padding: 12px; max-width: 960px;}
 div.box1 {border-radius: 7px; padding: 12px; spacing: 12px;}
