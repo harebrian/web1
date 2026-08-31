@@ -16,9 +16,6 @@
 --dropgreen: #65b85c;
 }
 
-body
-{
-  
 .pinkcondition {color: var(--pinkcondition);}
 .mimipink {color: var(--mimipink);}
 .moodlighting {color: var(--moodlighting);}
@@ -49,7 +46,7 @@ body
 .BGopalescent {background-color: var(--opalescent);}
 .BGplantaingreen {background-color: var(--plantaingreen);}
 .BGduckhunt {background-color: var(--duckhunt);}
-.BGdropgreen {background-color: var(--dropgreen);
+.BGdropgreen {background-color: var(--dropgreen);}
 
 .L001 {background-color: var(--duckhunt); color: var(--pinkcondition);}
 .L002 {background-color: var(--opalescent); color: var(--icylife);}
@@ -91,4 +88,3 @@ div.rcbox {border-radius: 15px; padding: 12px; max-width: 960px;}
 div.box1 {border-radius: 7px; padding: 12px; spacing: 12px;}
 p {max-width: 500px; text-align: left;}
 
-}
