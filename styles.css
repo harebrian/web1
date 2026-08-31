@@ -84,8 +84,8 @@
 .L034 {background-color: var(--pinkcondition); color: var(--duckhunt);}
 .L035 {background-color: var(--duckhunt); color: var(--icylife);}
 
-div.rcbox {border-radius: 15px; padding: 12px; max-width: 960px;}
-div.box1 {border-radius: 7px; padding: 12px; margin: 12px; min-width: 250px; max-width: 480px;}
+div.rcbox {border-radius: 15px; padding: 12px; max-width: 960px; min-width: 230px}
+div.box1 {border-radius: 7px; padding: 12px; margin: 12px; min-width: 220px; max-width: 180px;}
 p {max-width: 500px; text-align: left;}
 div.flex1 {
   display: flex;
@@ -93,6 +93,6 @@ div.flex1 {
   flex-wrap: wrap; /* Specifies whether the flex items should wrap or not */
   flex-flow: row wrap; /* Shorthand property for flex-direction and flex-wrap */
   justify-content: space-evenly; /* Aligns the flex items when they do not use all available space on the main-axis (horizontally) */
-  align-items: center; /* Aligns the flex items when they do not use all available space on the cross-axis (vertically) */
+  align-items: stetch; /* Aligns the flex items when they do not use all available space on the cross-axis (vertically) */
   align-content: center; /* Aligns the flex lines when there is extra space in the cross axis and flex items wrap */
 }
