@@ -52,8 +52,8 @@
 .L002 {background-color: var(--opalescent); color: var(--icylife); & a {color: var(--carol);}}
 .L003 {background-color: var(--twilightmauve); color: var(--goldilocks); & a {color: var(--pinkpalazzo);}}
 .L004 {background-color: var(--pinkpalazzo); color: var(--twilightmauve); & a {color: var(--truelavender);}}
-.L005 {background-color: var(--truelavender); color: var(--lemongate);}
-.L006 {background-color: var(--carol); color: var(--pinkpalazzo);}
+.L005 {background-color: var(--truelavender); color: var(--lemongate); & a {color: var(--icylife);}}
+.L006 {background-color: var(--carol); color: var(--pinkpalazzo); & a {color: var(--moodlighting);}}
 .L007 {background-color: var(--plantaingreen); color: var(--moodlighting); & a {color: var(--mimipink);}}
 .L008 {background-color: var(--goldilocks); color: var(--plantaingreen);}
 .L009 {background-color: var(--pinkpalazzo); color: var(--carol);}
@@ -79,17 +79,21 @@
 .L029 {background-color: var(--icylife); color: var(--duckhunt);}
 .L030 {background-color: var(--twilightmauve); color: var(--duckhunt);}
 .L031 {background-color: var(--truelavender); color: var(--goldilocks);}
-.L032 {background-color: var(--goldilocks); color: var(--truelavender);}
-.L033 {background-color: var(--twilightmauve); color: var(--moodlighting);}
-.L034 {background-color: var(--pinkcondition); color: var(--duckhunt);}
-.L035 {background-color: var(--duckhunt); color: var(--icylife);}
-/*
-@font-face {
-  font-family: myFirstFont;
-  src: url(sansation_light.woff);
-}
-*/
+.L032 {background-color: var(--goldilocks); color: var(--truelavender); & a {color: var(--bluemoonbay);}}
+.L033 {background-color: var(--twilightmauve); color: var(--moodlighting); & a {color: var(--mimipink);}}
+.L034 {background-color: var(--pinkcondition); color: var(--duckhunt); & a {color: var(--lemongate);}}
+.L035 {background-color: var(--duckhunt); color: var(--icylife); & a {color: var(--lemongate);}}
+.L036 {background-color: var(--moodlighting); color: var(--duckhunt); & a {color: var(--truelavender);}}
+.L037 {background-color: var(--truelavender); color: var(--moodlighting); & a {color: var(--icylife);}}
+.L038 {background-color: var(--carol); color: var(--moodlighting); & a {color: var(--icylife);}}
+.L039 {background-color: var(--opalescent); color: var(--moodlighting); & a {color: var(--icylife);}}
+.L040 {background-color: var(--plantaingreen); color: var(--moodlighting); & a {color: var(--icylife);}}
 
+
+@font-face {
+  font-family: 'DIN Condensed';
+  src: url('../fonts/DIN Condensed Bold.ttf') format('ttf'),
+}
 body
 {
   font-family: "DIN Condensed", Helvetica, sans-serif;
