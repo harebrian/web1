@@ -48,14 +48,13 @@
 .BGduckhunt {background-color: var(--duckhunt);}
 .BGdropgreen {background-color: var(--dropgreen);}
 
-.L001 {background-color: var(--duckhunt); color: var(--pinkcondition);}
-.L002 {background-color: var(--opalescent); color: var(--icylife);}
-.L003 {background-color: var(--twilightmauve); color: var(--goldilocks);}
-.L004 {background-color: var(--pinkpalazzo); color: var(--twilightmauve);}
+.L001 {background-color: var(--duckhunt); color: var(--pinkcondition); & a {color: var(--moodlighting);}}
+.L002 {background-color: var(--opalescent); color: var(--icylife); & a {color: var(--carol);}}
+.L003 {background-color: var(--twilightmauve); color: var(--goldilocks); & a {color: var(--pinkpalazzo);}}
+.L004 {background-color: var(--pinkpalazzo); color: var(--twilightmauve); & a {color: var(--truelavender);}}
 .L005 {background-color: var(--truelavender); color: var(--lemongate);}
 .L006 {background-color: var(--carol); color: var(--pinkpalazzo);}
-.L007 {background-color: var(--plantaingreen); color: var(--moodlighting);
-& a {color: var(--mimipink);}}
+.L007 {background-color: var(--plantaingreen); color: var(--moodlighting); & a {color: var(--mimipink);}}
 .L008 {background-color: var(--goldilocks); color: var(--plantaingreen);}
 .L009 {background-color: var(--pinkpalazzo); color: var(--carol);}
 .L010 {background-color: var(--carol); color: var(--pinkcondition);}
@@ -84,7 +83,6 @@
 .L033 {background-color: var(--twilightmauve); color: var(--moodlighting);}
 .L034 {background-color: var(--pinkcondition); color: var(--duckhunt);}
 .L035 {background-color: var(--duckhunt); color: var(--icylife);}
-
 /*
 @font-face {
   font-family: myFirstFont;
