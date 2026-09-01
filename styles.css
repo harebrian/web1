@@ -54,8 +54,8 @@
 .L004 {background-color: var(--pinkpalazzo); color: var(--twilightmauve);}
 .L005 {background-color: var(--truelavender); color: var(--lemongate);}
 .L006 {background-color: var(--carol); color: var(--pinkpalazzo);}
-.L007 {background-color: var(--plantaingreen); color: var(--moodlighting);}
-a.L007 {color: var(--mimipink);}
+.L007 {background-color: var(--plantaingreen); color: var(--moodlighting);
+& a.L007 {color: var(--mimipink);}}
 .L008 {background-color: var(--goldilocks); color: var(--plantaingreen);}
 .L009 {background-color: var(--pinkpalazzo); color: var(--carol);}
 .L010 {background-color: var(--carol); color: var(--pinkcondition);}
