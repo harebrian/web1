@@ -343,3 +343,12 @@ div.flex1 {
   align-items: stretch; /* Aligns the flex items when they do not use all available space on the cross-axis (vertically) */
   align-content: center; /* Aligns the flex lines when there is extra space in the cross axis and flex items wrap */
 }
+
+
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 600px) {
+  div.rcbox, div.box1 {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+
