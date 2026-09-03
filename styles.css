@@ -330,8 +330,8 @@ h1, h2, h3, h4, h5, h6
   font-family: titlefont, Helvetica, sans-serif;
 }
 
-div.rcbox {border-radius: 15px; padding: 12px; max-width: 960px; min-width: 230px;}
-div.box1 {border-radius: 7px; padding: 12px; margin: 12px; min-width: 220px; max-width: 180px; filter: drop-shadow(4px 8px 2px rgba(50, 50, 50, 0.6));}
+div.rcbox {border-radius: 15px; padding: 12px; max-width: 960px; min-width: 200px;}
+div.box1 {border-radius: 7px; padding: 12px; margin: 12px; min-width: 200px; max-width: 180px; filter: drop-shadow(4px 8px 2px rgba(50, 50, 50, 0.6));}
 p {max-width: 500px; text-align: left;}
 div.gapabove {margin-top: 12px;}
 div.flex1 {
